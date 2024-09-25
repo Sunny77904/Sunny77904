@@ -1,0 +1,73 @@
+name: CI
+
+in
+
+on: [push, workflow dispatch]
+
+jobs:
+
+build:
+
+Edit Preview
+
+Code 55% faster with GitHub Copilot
+
+runs-on: windows-latest
+
+1
+
+Enter file contents here
+
+Tune to search
+
+>
+
+Π
+
+X
+
+Cancel changes
+
+Commit changes...
+
+etplace
+
+Documentation
+
+ch Marketplace for Actions
+
+steps:
+
+name: Download
+
+run: Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-ed
+
+Actions
+
+name: Extract
+
+run: Expand-Archive ngrok.zip
+
+name: Auth
+
+run: \ngrok\ngrok.exe authtoken $Env:NGROK AUTH TOKEN
+
+env:
+
+NGROK_AUTH_TOKEN: $((secrets.NGROK_AUTH_TOKEN]}
+
+name: Enable TS
+
+run: run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+
+Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server
+
+run Set-ItemProperty Path "HKLM: \System\CurrentControlSet\Control\Terminal Server\
+
+:
+
+run: Set-LocalUser Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainTex
+
+name: Create Tunnel
+
+run: \ngrok\ngrok.exe tcp 3389
